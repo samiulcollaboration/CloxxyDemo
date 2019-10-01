@@ -911,3 +911,105 @@ input:required {
   font-size: 26px;
   font-weight: bolder;
 }
+
+
+
+/* ----Start of Our Services---- */
+
+.OurServices {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.OurServicesDiv {
+
+  margin: 0 auto;
+  text-align: center;
+}
+
+.OurServicesIcon img {
+  width: 150px;
+  height: 150px;
+
+}
+
+/* ----End of Our Services---- */
+
+
+
+/* ----Start of Meet The Team---- */
+.MeetTheTeam {
+  background: #f4f4f7;
+}
+
+.TeamMemberOutter {
+ padding: 5px !important;
+}
+
+.TeamMember {
+  color: white;
+  background: #232424;
+  height: 350px;
+  width: 350px;
+  padding: 30px;
+  border-radius: 55px 55px 55px 0px;
+}
+
+.TeamMemberImg img {
+  height: 130px;
+  width: 130px;
+  border-radius: 0 35px 0 0 !important;
+}
+
+.TeamMemberSocial {
+  margin-top: 15px;
+  background: #2980b9;
+  height: 55px;
+  width: 180px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.TeamMemberSocial a:hover {
+  color: white;
+}
+
+.TeamMemberSocial a:active {
+  color: white;
+}
+
+.TeamMemberSocial a:visited {
+  color: white;
+}
+
+.TeamMemberSocial a:link {
+  color: white;
+}
+
+.TeamMemberSocial a i{
+  font-size: 30px;
+  padding: 5px;
+  color: white;
+}
+
+.TeamMemberName h4 {
+  font-size: 18px;
+}
+
+.TeamMemberName p {
+  font-size: 14px !important;
+}
+
+.TeamMember:hover {
+  color: black;
+  transition-duration: .5s;
+  background: #81d742;
+  -webkit-box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* ----End of Meet The Team---- */
