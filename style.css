@@ -344,63 +344,19 @@ input:required {
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
-  background-color: transparent; }
-  .header-area .search-icon {
-    position: relative;
-    z-index: 1;
-    margin-left: 80px; }
-    .header-area .search-icon i {
-      font-size: 18px;
-      color: #ffffff;
-      cursor: pointer; }
-/* --------------------------------- Ignore---------------------------------------- */
-.top-search-area .modal {
-  background-color: rgba(0, 0, 0, 0.7); }
-.top-search-area .modal-content .modal-body {
-  padding: 50px; }
-  .top-search-area .modal-content .modal-body button.close-btn {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    z-index: 10;
-    font-size: 14px; }
-    .top-search-area .modal-content .modal-body button.close-btn.btn {
-      padding: 0;
-      background-color: transparent; }
-.top-search-area form {
-  width: 100%;
+  background-color: transparent; 
+}
+.header-area .search-icon {
   position: relative;
-  z-index: 1; }
-  .top-search-area form input {
-    width: 100%;
-    height: 50px;
-    border: none;
-    -webkit-box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.08);
-    box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.08);
-    border-radius: 6px;
-    font-size: 12px;
-    font-style: italic;
-    padding: 0 20px; }
-    .top-search-area form input:focus {
-      -webkit-box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.08);
-      box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.08); }
-  .top-search-area form button {
-    position: absolute;
-    width: 100px;
-    height: 50px;
-    top: 0;
-    right: 0;
-    z-index: 10;
-    border-radius: 0 6px 6px 0;
-    border: none;
-    background-color: #fc6060;
-    font-weight: 600;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #ffffff;
-    cursor: pointer; }
-/* --------------------------------- Ignore---------------------------------------- */
+  z-index: 1;
+  margin-left: 80px; 
+}
+.header-area .search-icon i {
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer; 
+}
+
 .classy-nav-container {
   background-color: transparent;
   padding: 0; }
@@ -602,8 +558,9 @@ input:required {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* ------------------------ Big Icon Start------------------------ */
-
+/* ------------------------ 
+    Big Icon Start
+------------------------ */
 .social-icons-box{
   width: 100%;
   height: auto;
@@ -666,11 +623,14 @@ input:required {
 .social-icons-list ul li:hover{
   background: #000000;
 }
+/* ------------------------ 
+    Big Icon End
+------------------------ */
 
-/* ------------------------ Big Icon End------------------------ */
 
-
-/* ------------------------ About Us Page Start------------------------ */
+/* ------------------------ 
+    About Us Page Start
+------------------------ */
 
 .breadcrumb-area{
   background-image: url(img/bg-img/breadcrumb-background.jpg);
@@ -684,24 +644,9 @@ input:required {
 }
 
 
-.team{
-  background-color: #021F21;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-}
-
-.team-img{
-  border-top-right-radius: 20px;
-}
-
-.team-name{
-  font-size: 19px;
-}
-
-
-/* ------------------------ client Messege Area ------------------------ */
-
+/* ------------------------ 
+    client Messege Area
+------------------------ */
 .client-head-text{
   text-align: center;
 }
@@ -794,8 +739,9 @@ input:required {
   transition: 0.5s;
 }
 
-/* ------------------------ Contact Us Page ------------------------ */
-
+/* ------------------------ 
+    Contact Us Page 
+------------------------ */
 .contact {
   margin: 100px 16px;
 }
@@ -885,11 +831,9 @@ input:required {
 .center-align {
   text-align: center;
 }
-
-
-
-/* Contact Form */
-
+/* ------------------------ 
+    Contact Form 
+------------------------ */
 .contact-form-main{
   height: 650px;
 }
@@ -905,47 +849,37 @@ input:required {
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
 }
-
-/* portfolio */
+/* ------------------------ 
+    portfolio 
+------------------------ */
 .portfolio-header{
   font-size: 26px;
   font-weight: bolder;
 }
-
-
-
-/* ----Start of Our Services---- */
-
+/* ------------------------ 
+   Start of Our Services
+------------------------ */
 .OurServices {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
 .OurServicesDiv {
-
   margin: 0 auto;
   text-align: center;
 }
-
 .OurServicesIcon img {
   width: 150px;
   height: 150px;
-
 }
-
-/* ----End of Our Services---- */
-
-
-
-/* ----Start of Meet The Team---- */
+/* ------------------------ 
+   Start of Meet The Team
+------------------------ */
 .MeetTheTeam {
   background: #f4f4f7;
 }
-
 .TeamMemberOutter {
  padding: 5px !important;
 }
-
 .TeamMember {
   color: white;
   background: #232424;
@@ -954,13 +888,11 @@ input:required {
   padding: 30px;
   border-radius: 55px 55px 55px 0px;
 }
-
 .TeamMemberImg img {
   height: 130px;
   width: 130px;
   border-radius: 0 35px 0 0 !important;
 }
-
 .TeamMemberSocial {
   margin-top: 15px;
   background: #2980b9;
@@ -972,37 +904,29 @@ input:required {
   padding-left: 5px;
   padding-right: 5px;
 }
-
 .TeamMemberSocial a:hover {
   color: white;
 }
-
 .TeamMemberSocial a:active {
   color: white;
 }
-
 .TeamMemberSocial a:visited {
   color: white;
 }
-
 .TeamMemberSocial a:link {
   color: white;
 }
-
 .TeamMemberSocial a i{
   font-size: 30px;
   padding: 5px;
   color: white;
 }
-
 .TeamMemberName h4 {
   font-size: 18px;
 }
-
 .TeamMemberName p {
   font-size: 14px !important;
 }
-
 .TeamMember:hover {
   color: black;
   transition-duration: .5s;
@@ -1011,5 +935,3 @@ input:required {
   -moz-box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 0.75);
   box-shadow: -5px 5px 20px 0px rgba(0, 0, 0, 0.75);
 }
-
-/* ----End of Meet The Team---- */
