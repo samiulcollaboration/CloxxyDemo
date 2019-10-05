@@ -883,7 +883,7 @@ input:required {
 
 .TeamMember {
     color: white;
-    background: #2980b9;
+    background: #161616;
     height: 350px;
     width: 350px;
     padding: 30px;
@@ -932,13 +932,16 @@ input:required {
 
 .TeamMemberName h4 {
     font-size: 18px;
+    color: white;
 }
 
 .TeamMemberName p {
     font-size: 14px !important;
+    color: white;
 }
 .TeamMember p {
     font-size: 14px !important;
+    color: rgb(207, 201, 201);
 }
 
 .TeamMember:hover {

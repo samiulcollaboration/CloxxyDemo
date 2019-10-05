@@ -1,30 +1,9 @@
 <?php include('other-header.php'); ?>
 
-<!-- Breadcrumb Area Start -->
-<section class="breadcrumb-area bg-img bg-overlay mb-4" >
-    <div class="container h-100">
-        <div class="row h-100 align-items-center">
-            <div class="col-12">
-                <div class="breadcrumb-content text-center">
-                    <h2 class="page-title text-white">Portfolio Details</h2>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a href="index.html" class="text-white"><i class="icon_house_alt"></i>
-                                    Home</a></li>
-                            <li class="breadcrumb-item text-white" aria-current="page">Portfolio Details</li>
-                            <li class="breadcrumb-item active" aria-current="page">Portfolio-Details</li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Breadcrumb Area End -->
 
 <!--================Start Portfolio Details Area =================-->
 <section class="portfolio_details_area section_gap">
-    <div class="container">
+    <div class="container mt-5">
         <div class="portfolio_details_inner">
             <div class="row">
                 <div class="col-lg-6">

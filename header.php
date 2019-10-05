@@ -1,3 +1,22 @@
+<?php include('blog/connection.php'); ?>
+<?php 
+    $current_page = "";
+    $link = $_SERVER['PHP_SELF'];
+
+    if (strpos($link, "index.php")){
+        $current_page = "Cloxxy";
+    }elseif (strpos($link, "about.php")){
+        $current_page = "About";
+    }elseif (strpos($link, "contact.php")){
+        $current_page = "Contact";
+    }elseif (strpos($link, "portfolio.php")){
+        $current_page = "Portfolio";
+    }elseif (strpos($link, "portfolio-details.php")){
+        $current_page = "Portfolio Details";
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +25,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title -->
-    <title>Cloxxy - Portfolio For Web Developer</title>
+    <title><?php echo $current_page; ?></title>
     <!-- Favicon -->
     <link rel="icon" href="./img/core-img/favicon.png">
     <!-- Font Awesome -->

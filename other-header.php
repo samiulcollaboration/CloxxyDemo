@@ -1,3 +1,24 @@
+<?php include('blog/connection.php'); ?>
+<?php 
+    $current_page = "";
+    $portfolioCondition = "";
+    $link = $_SERVER['PHP_SELF'];
+
+    if (strpos($link, "index.php")){
+        $current_page = "Cloxxy";
+    }elseif (strpos($link, "about.php")){
+        $current_page = "About";
+    }elseif (strpos($link, "contact.php")){
+        $current_page = "Contact";
+    }elseif (strpos($link, "portfolio.php")){
+        $current_page = "Portfolio";
+    }elseif (strpos($link, "portfolio-details.php")){
+        $current_page = "Portfolio Details";
+        $portfolioCondition = "true";
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +29,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>Cloxxy - About Us</title>
+    <title><?php echo $current_page; ?></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!-- Favicon -->
     <link rel="icon" href="./img/core-img/favicon.png">
@@ -16,7 +37,7 @@
     <script src="https://kit.fontawesome.com/6b31c6085b.js" crossorigin="anonymous"></script>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/css/default-assets/animate.min.css">
+    <link rel="stylesheet" href="css/default-assets/animate.min.css">
 
 </head>
 
@@ -44,11 +65,16 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul id="nav">
-                                    <li><a href="index.php">Home</a></li>
-                                    <li class="active"><a href="about.php">About</a></li>
-                                    <li><a href="portfolio.php">Portfolio</a></li>
-                                    <li><a href="blog">Blog</a></li>
-                                    <li><a href="contact.php">Contact</a></li>
+                                    <li class="<?php if($current_page == "Cloxxy"){
+                                        echo "active"; }?>"><a href="index.php">Home</a></li>
+                                    <li class="<?php if($current_page == "About"){
+                                        echo "active"; }?>"><a href="about.php">About</a></li>
+                                    <li class="<?php if($current_page == "Portfolio"){
+                                        echo "active"; }?>"><a href="portfolio.php">Portfolio</a></li>
+                                    <li class="<?php if($current_page == "Blog"){
+                                        echo "active"; }?>"><a href="blog">Blog</a></li>
+                                    <li class="<?php if($current_page == "Contact"){
+                                        echo "active"; }?>"><a href="contact.php">Contact</a></li>
                                 </ul>
                             </div>
                     </nav>
@@ -57,3 +83,27 @@
         </div>
     </header>
     <!-- Header Area End -->
+        <!-- Breadcrumb Area Start -->
+        <section class="breadcrumb-area bg-img bg-overlay">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content text-center">
+                        <h2 class="page-title text-white"><?php echo $current_page; ?></h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="index.html" class="text-white"><i class="icon_house_alt"></i> Home</a></li>
+                                <?php if($portfolioCondition == "true"){?>
+                                    <li class="breadcrumb-item"><a href="index.html" class="text-white"><i class="icon_house_alt"></i> Portfolio</a></li>
+                               <?php }
+                                 ?>
+                                
+                                <li class="breadcrumb-item active" aria-current="page"><?php echo $current_page; ?></li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Area End -->

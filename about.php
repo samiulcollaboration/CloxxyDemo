@@ -1,24 +1,5 @@
 <?php include('other-header.php'); ?>
 
-    <!-- Breadcrumb Area Start -->
-    <section class="breadcrumb-area bg-img bg-overlay">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12">
-                    <div class="breadcrumb-content text-center">
-                        <h2 class="page-title text-white">About Us</h2>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="index.html" class="text-white"><i class="icon_house_alt"></i> Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">About</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Breadcrumb Area End -->
 
     <!-- Intro Start -->
     <section class="mt-4">
@@ -140,7 +121,7 @@
                             <div class="row">
                                 <div class="col-6">
                                     <div class="TeamMemberName">
-                                        <h4 class="text-white">Rakib Hossain</h4>
+                                        <h4>Rakib Hossain</h4>
                                         <p>Developer</p>
                                     </div>
                                 </div>
