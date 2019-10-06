@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../style.css">
-    <title>Blog-Admin</title>
-</head>
-
-<body>
+<?php include('blog-header.php');?>
     <div class="logInPanel">
         <div class="container">
             <div class="row">
@@ -32,8 +20,4 @@
             </div>
         </div>
     </div>
-</body>
-<source src="../js/jquery.min.js" type="text/javascript">
-<source src="../js/bootstrap.min.js" type="text/javascript">
-
-</html>
+    <?php include('blog-footer.php');?>

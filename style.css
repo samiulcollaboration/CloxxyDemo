@@ -5,7 +5,7 @@
 @import url(css/default-assets/classy-nav.css);
 @import url(css/owl.carousel.min.css);
 @import url(css/default-assets/themify-icons.css);
-@import url(css/style.css);
+
 /* :: 01.0 Reboot CSS */
 * {
   margin: 0;
@@ -955,7 +955,7 @@ input:required {
 .logInForm{
   width: 600px;
   height: 500px;
-  background: green;
+  background: red;
   padding: 25px;
   text-align: center;
   margin: 0 auto;
