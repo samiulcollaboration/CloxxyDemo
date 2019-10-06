@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.css">
-    <title>Add Content</title>
+    <title>Cloxxy - Add Content</title>
 </head>
 <body>
     <?php include('connection.php') ?>
@@ -39,7 +39,13 @@
             $insertSQL = "INSERT INTO blog_content (title, content, thumbnail) VALUES ('$title', '$content', '$imagePath')";
             if ($conn->query($insertSQL) === TRUE && $check == true) {
             ?>
-                <h1>Data Inserted // Design to be added</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="img/bg-img/successfully.jpg" alt="data inserted successfully" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
 
             <?php
             } else {
@@ -62,28 +68,48 @@
             if ($result->num_rows > 0) {
             ?>
 
-                <div class="conatiner">
-                    <div class="row">
-                        <div class="col-12">
-                            <form action="" method="POST" enctype="multipart/form-data">
-                                <label for="">Title</label>
-                                <input type="text" name="title">
-                                <label for="">Content</label>
-                                <textarea name="content" cols='70'> </textarea>
-                                <input type="file" name="fileToUpload" id="fileToUpload">
-                                <button type='submit'>Submit</button>
-                            </form>
-                            
+                <section class="blogadmin-body">
+                    <div class="container">
+                        <div class="row blogadmin-row p-4">
+                            <div class="col-md-12 outside-border p-5">
+                                <ul class="admin-ul text-center">
+                                    <h4 class="text-center">Create Blog</h4>
+                                </ul>
+                                <form action="" method="POST" enctype="multipart/form-data">
+                                    <div class="form-group">
+                                        <label class="label control-label bloglabel">Title</label>
+                                        <input type="text" name="title" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="label control-label bloglabel">Content</label>
+                                        <textarea name="content" cols='1000' class="form-control"> </textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="label control-label bloglabel">Upload Image</label> <br>
+                                        <input type="file" name="fileToUpload" id="fileToUpload">
+                                    </div>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-dark blog-btn">SUBMIT</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    </div>
+                    </div>
+                </section>
 
             <?php    
             } else {
 
-            ?>   
-
-                <h1>Sorry, Wrong Input // Design to be added</h1>
+            ?>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                	        <img src="img/bg-img/wrong.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
 
             <?php  
             }

@@ -872,7 +872,8 @@ input:required {
   height: 150px;
 }
 /* ------------------------ 
-   Start of Meet The Team */
+   Start of Meet The Team 
+-------------------------*/
 .MeetTheTeam {
     background: #f4f4f7;
 }
@@ -978,4 +979,65 @@ input:required {
 
 .post-title{
   margin-top: 7px;
+}
+
+/* ------------------------ 
+    Blog Admin Panel Inside Code
+------------------------ */
+
+.blogadmin-body{
+  background-image: url(img/bg-img/admin-background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: new time 'Times New Roman', Times, serif;
+}
+.blogadmin-row{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-shadow: -1px 1px 50px 10px black;
+
+}
+.outside-border{
+  border: 2px solid #f44c89;
+  border-radius: 10px;
+}
+.admin-ul{
+  margin-bottom: 50px;
+}
+.admin-ul h4{
+  display: inline-block;
+  font-size: 29px;
+  color: black;
+  border-bottom: 4px solid #f44c89;
+  border-radius: 15px;
+  padding: 10px;
+}
+.admin-ul h4:hover{
+  text-decoration: none;
+  color: gray;
+}
+
+.bloglabel{
+  font-size: 20px;
+  font-weight: normal;
+}
+.form-control{
+  background: transparent;
+  border-radius: 0px;
+  border: 0px;
+  border-bottom: 1px solid #f44c89;
+  margin-bottom: 30px;
+  font-size: 22px;
+  padding: 20px;
+}
+.blog-btn{
+  background: #23272B;
+  border: 2px solid #23272B;
+  width: 50%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.blog-btn:hover{
+  color: #f44c89;
+  border: 2px solid #f44c89;
 }
