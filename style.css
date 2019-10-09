@@ -641,6 +641,7 @@ input:required {
 }
 .breadcrumb{
   background-color: #021F21;
+  display: inline-block;
 }
 
 

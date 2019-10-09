@@ -49,7 +49,7 @@
                     <h5 class="footer font-weight-bold text-uppercase mt-3 mb-4">NEWSLATTER</h5>
                     <ul class="list-unstyled">
                         <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
-                        <button class="btn btn-info btn-block my-4 " type="submit">Sign in</button>
+                        <button class="btn btn-info btn-block my-4 " type="submit">Subscribe</button>
                     </ul>
                 </div>
             </div>

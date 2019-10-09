@@ -32,23 +32,4 @@
             </div>
         </section>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <?php include('blog-footer.php');?>

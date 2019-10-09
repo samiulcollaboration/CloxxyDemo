@@ -163,10 +163,10 @@
                                     Work For Money Until Your Money Work For You </p>
                             </div>
                             <div class="TeamMemberSocial d-none" id="TeamMemberIcon2">
-                                <a href="#"><i class="fab fa-facebook-square"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-twitter-square"></i></a>
-                                <a href="#"><i class="fab fa-linkedin"></i></i></a>
+                                <a href="https://www.facebook.com/thisisantu"><i class="fab fa-facebook-square"></i></a>
+                                <a href="https://www.instagram.com/samiulhasan_94"><i class="fab fa-instagram"></i></a>
+                                <a href="https://twitter.com/samiul_hasan94"><i class="fab fa-twitter-square"></i></a>
+                                <a href="https://www.linkedin.com/in/samiul-hasan-8b364a75"><i class="fab fa-linkedin"></i></i></a>
                             </div>
                         </div>
                     </div>
