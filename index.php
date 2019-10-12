@@ -159,6 +159,49 @@
     </section>
     <!-- Service Section End -->
 
+    <!-- why you choice us start -->
+    <section>
+        <div class="container-fluid choice-us-bg mb-5">
+            <div class="choice-us-overlay"></div>
+            <div class="container">
+                <div class="c-us">
+                    <h3 class="text-center text-uppercase pt-5">Why cloxxy as website design company in india</h3>
+                    <p class="text-center pt-2">We craft beautiful and mindblowing website and mobile app to promote
+                        your
+                        business.</p>
+                </div>
+                <div class="row text-center pb-5">
+                    <div class="col-lg-3 col-sm-6 col-6 pt-md-4">
+                        <div class="choiceus">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <p class="pt-3">Exprenced Team</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-6 pt-md-4">
+                        <div class="choiceus">
+                            <i class="fa fa-money" aria-hidden="true"></i>
+                            <p class="pt-3">Valueable Price</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-6 pt-md-4">
+                        <div class="choiceus">
+                            <i class="fa fa-truck" aria-hidden="true"></i>
+                            <p class="pt-3">Onetime Delivery</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-6 pt-md-4">
+                        <div class="choiceus">
+                            <i class="fa fa-file-code-o" aria-hidden="true"></i>
+                            <p class="pt-3">Latest Technology</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- why you choice us end -->
+
 
     <!-- Big Icon Start -->
     <section>
