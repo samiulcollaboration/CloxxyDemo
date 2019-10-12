@@ -764,8 +764,12 @@ input:required {
   display: block;
   width: 100%;
 }
-.form-name, .form-email, .form-message {
+.form-name, .form-email, .form-message, .form-subject {
   position: relative;
+}
+.form-subject::before{
+  content: "\f0f6";
+  color: #262626;
 }
 .form-name::before {
   content: "\f007";
@@ -779,7 +783,7 @@ input:required {
   content: "\f0e0";
   color: #262626;
 }
-.form-name::before, .form-email::before, .form-message::before {
+.form-name::before, .form-email::before,.form-subject::before,  .form-message::before {
   font-family: 'fontAwesome';
   position: absolute;
   top: 10px;

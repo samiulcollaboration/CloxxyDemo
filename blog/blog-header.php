@@ -15,6 +15,7 @@
             // output data of each row
             while($row = $result->fetch_assoc()) {
                 $current_page = $row['title'];
+                // $current_page = "";
                 $post = "true";
             }
         } 
