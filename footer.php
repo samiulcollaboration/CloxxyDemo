@@ -4,27 +4,26 @@
             <div class="row">
                 <div class="col-md-3 mx-auto">
                     <h5 class="footer font-weight-bold text-uppercase mt-3 mb-4">Cloxxy</h5>
-                    <p class="footer text-sm-justify text-lg-left">Eiusmod ad sint ad ut esse Lorem sit incididunt
-                        cillum sint exercitation consectetur.</p>
+                    <p class="footer text-justify text-lg-left">We build intelligent and beautiful websites. We develop websites that ignite your business. <br> <q>If you can think it, we can web it.</q></p>
                 </div>
                 <hr class="clearfix w-100 d-md-none">
                 <div class="col-md-2 mx-auto">
                     <h5 class="footer font-weight-bold text-uppercase mt-3 mb-4">USEFUL LINKS</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!" class="footer">Home</a>
+                            <a href="index.php" class="footer">Home</a>
                         </li>
                         <li>
-                            <a href="#!" class="footer">About Us</a>
+                            <a href="about.php" class="footer">About Us</a>
                         </li>
                         <li>
-                            <a href="#!" class="footer">Portfolio</a>
+                            <a href="portfolio.php" class="footer">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#!" class="footer">Blog</a>
+                            <a href="blog" class="footer">Blog</a>
                         </li>
                         <li>
-                            <a href="#!" class="footer">Contact Us</a>
+                            <a href="contact.php" class="footer">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -49,7 +48,7 @@
                     <h5 class="footer font-weight-bold text-uppercase mt-3 mb-4">NEWSLATTER</h5>
                     <ul class="list-unstyled">
                         <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
-                        <button class="btn btn-info btn-block my-4 " type="submit">Sign in</button>
+                        <button class="btn btn-info btn-block my-4 " type="submit">Subscribe</button>
                     </ul>
                 </div>
             </div>
