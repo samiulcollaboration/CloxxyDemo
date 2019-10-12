@@ -1,7 +1,7 @@
 <?php include('blog-header.php'); ?>
 <?php include('connection.php') ?>
 <?php
-    $sql = "SELECT * FROM blog_content";
+    $sql = "SELECT * FROM blog_content ORDER BY post_id DESC";
     $result = $conn->query($sql);
     if ($result->num_rows > 0) {
         ?>
