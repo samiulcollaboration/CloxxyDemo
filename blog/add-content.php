@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.css">
     <title>Cloxxy - Add Content</title>
+    <script src="https://cdn.tiny.cloud/1/n8jgu90eoftuz5gdue2cexmd9l8a9ztaq02lk9b5xf8cv44q/tinymce/5/tinymce.min.js"></script>
 </head>
 <body>
     <?php include('connection.php') ?>
@@ -82,7 +83,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label class="label control-label bloglabel">Content</label>
-                                        <textarea name="content" cols='1000' class="form-control"> </textarea>
+                                        <textarea id="mytextarea" name="content" class="form-control"> </textarea>
                                     </div>
                                     <div class="form-group">
                                         <label class="label control-label bloglabel">Upload Image</label> <br>
@@ -122,4 +123,9 @@
 </body>
 <source src="../js/jquery.min.js" type="text/javascript">
 <source src="../js/bootstrap.min.js" type="text/javascript">
+<!-- <script src='https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js' referrerpolicy="origin"></script> -->
+<script>
+  tinymce.init({
+    selector: '#mytextarea'
+  }); </script>
 </html>
