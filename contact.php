@@ -1,5 +1,37 @@
 <?php include('other-header.php'); ?>
+<?php 
+    $to  = "rakibrk1811@gmail.com";
 
+    $subject = "";
+    if(isset($_POST['subject']))
+        $subject = $_POST['subject'];
+
+    $msg = "";
+    if(isset($_POST['message']))
+        $msg = $_POST['message'];
+
+    $header = "";
+    if(isset($_POST['email']))
+        $header = "From: " . $_POST['email'];
+
+    if(isset($_POST['subject']) && isset($_POST['message']) && isset($_POST['email'])){
+        if(mail($to, $subject, $msg, $header)){
+            //message send successful // TODO
+            ?>
+            <h1>Successfull</h1>
+        <?php   
+        }
+        else{ 
+            //Message send fail //TODO
+            ?>
+        <h1>Failed</h1>
+    <?php
+        }
+    }   
+
+
+
+?>
 
     <!-- Contact Form Start -->
     <section>
@@ -31,19 +63,23 @@
                         </div>
                         <!-- form -->
                         <div class="form-container">
-                            <form class="form">
+                            <form class="form" action="" method="POST">
                                 <div class="form-name">
-                                    <input type="text" id="name" name="name" placeholder="Name" required="">
+                                    <input type="text" name="name" placeholder="Name">
                                 </div>
                                 <div class="form-email">
-                                    <input type="email" id="email" name="email" placeholder="Email" required="">
+                                    <input type="email" name="email" placeholder="Your Email" required>
+                                </div>
+                                <div class="form-subject">
+                                    <input type="text" name="subject" placeholder="Subject" required>
                                 </div>
                                 <div class="form-message">
-                                    <textarea id="message" name="message" placeholder="Message" required=""></textarea>
+                                    <textarea name="message" placeholder="Message" required></textarea>
                                 </div>
-                                <div class="center-align">
-                                    <a href="#">submit</a>
+                                <div class="form-button">
+                                    <button type="submit">Submit</button>
                                 </div>
+                                
                             </form>
                         </div>
                     </div>
