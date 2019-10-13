@@ -92,7 +92,7 @@
                 <div class="col-md-12">
                     <div class="breadcrumb-content text-center">
                         <h2 class="page-title text-white"><?php echo $current_page; ?></h2>
-                            <ol class="breadcrumb justify-content-center">
+                            <ol class="breadcrumb d-inline-block">
                                 <li class="breadcrumb-item"><a href="../index.php" class="text-white"><i class="icon_house_alt"></i> Home</a></li>
                                 <?php if($post == 'true'){?>
                                     <li class="breadcrumb-item"><a href="../index.php" class="text-white"><i class="icon_house_alt"></i> Cloxxy Blog</a></li>

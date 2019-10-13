@@ -635,13 +635,14 @@ input:required {
 .breadcrumb-area{
   background-image: url(img/bg-img/breadcrumb-background.jpg);
   height: 400px;
+  width: 100%;
 }
-.breadcrumb-content{
-  padding: 120px;
-}
+
 .breadcrumb{
   background-color: #021F21;
-  display: inline-block;
+}
+.breadcrumb-item{
+  display: inline;
 }
 
 
@@ -1101,4 +1102,7 @@ input:required {
 .choiceus p{
   font-size: 19px;
   color: white;
+}
+.Success{
+  padding: 200px;
 }

@@ -21,7 +21,7 @@
                                 <h5 class="card-title"><?php echo $row['title']; ?></h5>
                                 <p class="card-text text-justify"><?php $content = $row['content'];
                                 $filterContent = substr($content,0,150). ".....";
-                                echo $filterContent; ?></p>
+                                // echo $filterContent; ?></p>
                             </div>
                         </div>
                     </a>

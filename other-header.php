@@ -91,14 +91,13 @@
                     <div class="breadcrumb-content text-center">
                         <h2 class="page-title text-white"><?php echo $current_page; ?></h2>
                         <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb justify-content-center">
+                            <ol class="breadcrumb d-inline-block">
                                 <li class="breadcrumb-item"><a href="index.html" class="text-white"><i class="icon_house_alt"></i> Home</a></li>
                                 <?php if($portfolioCondition == "true"){?>
                                     <li class="breadcrumb-item"><a href="index.html" class="text-white"><i class="icon_house_alt"></i> Portfolio</a></li>
                                <?php }
                                  ?>
-                                
-                                <li class="breadcrumb-item active" aria-current="page"><?php echo $current_page; ?></li>
+                                <li class="breadcrumb-item active" aria-current="page"><?php print_r($current_page); ?></li>
                             </ol>
                         </nav>
                     </div>
