@@ -635,13 +635,13 @@ input:required {
 .breadcrumb-area{
   background-image: url(img/bg-img/breadcrumb-background.jpg);
   height: 400px;
-}
-.breadcrumb-content{
-  padding: 120px;
+  width: 100%;
 }
 .breadcrumb{
   background-color: #021F21;
-  display: inline-block;
+}
+.breadcrumb-item{
+  display: inline;
 }
 
 
@@ -869,7 +869,6 @@ input:required {
   margin-bottom: 50px;
 }
 .OurServicesDiv {
-  min-height: 275px;
   background-color: rgb(46, 47, 48);
 }
 .OurServicesDiv:hover{

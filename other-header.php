@@ -91,7 +91,7 @@
                     <div class="breadcrumb-content text-center">
                         <h2 class="page-title text-white"><?php echo $current_page; ?></h2>
                         <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb justify-content-center">
+                            <ol class="breadcrumb d-inline-block">
                                 <li class="breadcrumb-item"><a href="index.html" class="text-white"><i class="icon_house_alt"></i> Home</a></li>
                                 <?php if($portfolioCondition == "true"){?>
                                     <li class="breadcrumb-item"><a href="index.html" class="text-white"><i class="icon_house_alt"></i> Portfolio</a></li>

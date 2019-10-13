@@ -12,19 +12,19 @@
                     <h5 class="footer font-weight-bold text-uppercase mt-3 mb-4">USEFUL LINKS</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!" class="footer">Home</a>
+                            <a href="../index.php" class="footer">Home</a>
                         </li>
                         <li>
-                            <a href="#!" class="footer">About Us</a>
+                            <a href="../about.php" class="footer">About Us</a>
                         </li>
                         <li>
-                            <a href="#!" class="footer">Portfolio</a>
+                            <a href="../portfolio.php" class="footer">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#!" class="footer">Blog</a>
+                            <a href="" class="footer">Blog</a>
                         </li>
                         <li>
-                            <a href="#!" class="footer">Contact Us</a>
+                            <a href="../contact.php" class="footer">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -37,7 +37,6 @@
                             West Bengal <br>
                             742304 <br>
                             India <br>
-                            <i class="fas fa-phone-square"></i><a href="tel:+917001250500" class="footer"> 7001250500</a>
                             <br>
                             <i class="fas fa-envelope-open-text"></i><a href="mailto:samiulhasan1994@gmail.com" class="footer">
                                 contact@cloxxy.in</a>
