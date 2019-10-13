@@ -869,12 +869,24 @@ input:required {
   margin-bottom: 50px;
 }
 .OurServicesDiv {
-  margin: 0 auto;
-  text-align: center;
+  min-height: 275px;
+  background-color: rgb(46, 47, 48);
 }
-.OurServicesIcon img {
-  width: 150px;
-  height: 150px;
+.OurServicesDiv:hover{
+  background-color: #1b1b1b;
+}
+.OurServicesDiv img:hover{
+  transform: rotate(360deg);
+}
+.OurServicesDiv p{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;;;
+  color: rgb(255, 255, 255);
+}
+.OurServicesDiv img {
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, transform 2s;
 }
 /* ------------------------ 
    Start of Meet The Team 

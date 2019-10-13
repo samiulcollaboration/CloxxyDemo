@@ -101,58 +101,44 @@
         <div class="OurServices">
             <div class="container">
                 <h1 class="text-center mb-5 text-uppercase">Service Details</h1>
-                <div class="row">
-                    <div class="col-md-4 p-4">
-                        <div class="OurServicesDiv">
-                            <div class="OurServicesIcon">
+                    <div class="row text-center pb-5">
+                        <div class="col-lg-4 col-sm-6 col-6 pt-md-4 mb-sm-3">
+                            <div class="OurServicesDiv rounded shadow-lg pt-5">
                                 <img src="img/bg-img/Graphic-Design.png" class="img-fluid" alt="">
+                                <p class="pt-4">Graphic Design</p>
                             </div>
-                            <h3>Graphic Design</h3>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-6 pt-md-4 mb-sm-3">
+                            <div class="OurServicesDiv rounded shadow-lg pt-5">
+                            <img src="img/bg-img/Web-Design.png" class="img-fluid" alt="">
+                                <p class="pt-4">Web Design</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-6 pt-md-4 mb-sm-3">
+                            <div class="OurServicesDiv rounded shadow-lg pt-5">
+                            <img src="img/bg-img/Web-Development.png" class="img-fluid" alt="">
+                                <p class="pt-4">Web Development</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-6 pt-md-4 mb-sm-3">
+                            <div class="OurServicesDiv rounded shadow-lg pt-5">
+                            <img src="img/bg-img/Mobile.png" class="img-fluid" alt="">
+                                <p class="pt-4">Android / iOS Development</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-6 pt-md-4 mb-sm-3">
+                            <div class="OurServicesDiv rounded shadow-lg pt-5">
+                            <img src="img/bg-img/WordPress.png" class="img-fluid" alt="">
+                                <p class="pt-4">Wordpress Theme Customization</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-6 pt-md-4 mb-sm-3">
+                            <div class="OurServicesDiv rounded shadow-lg pt-5">
+                            <img src="img/bg-img/SEO-Service.png" class="img-fluid" alt="">
+                                <p class="pt-4">SEO Service</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4 p-4">
-                        <div class="OurServicesDiv">
-                            <div class="OurServicesIcon">
-                                <img src="img/bg-img/Web-Design.png" class="img-fluid" alt="">
-                            </div>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4 p-4">
-                        <div class="OurServicesDiv">
-                            <div class="OurServicesIcon">
-                                <img src="img/bg-img/Web-Development.png" class="img-fluid" alt="">
-                            </div>
-                            <h3>Web Development</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4 p-4">
-                        <div class="OurServicesDiv">
-                            <div class="OurServicesIcon">
-                                <img src="img/bg-img/Mobile.png" class="img-fluid" alt="">
-                            </div>
-                            <h3>Android / iOS Development</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4 p-4">
-                        <div class="OurServicesDiv">
-                            <div class="OurServicesIcon">
-                                <img src="img/bg-img/WordPress.png" class="img-fluid" alt="">
-                            </div>
-                            <h3>Wordpress Theme Customization</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4 p-4">
-                        <div class="OurServicesDiv">
-                            <div class="OurServicesIcon">
-                                <img src="img/bg-img/SEO-Service.png" class="img-fluid" alt="">
-                            </div>
-                            <h3>SEO Service</h3>
-                        </div>
-                    </div>
-                    
-                    
-                    
                 </div>
             </div>
         </div>
