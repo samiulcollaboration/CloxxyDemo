@@ -8,7 +8,7 @@
 
     $msg = "";
     if(isset($_POST['message']))
-        $msg = $_POST['message'];
+        $msg = $_POST['name'] . "\n" . $_POST['message'];
 
     $header = "";
     if(isset($_POST['email']))
