@@ -39,68 +39,79 @@
         <!--  client Messege Area  -->
         <div class="container mb-4">
             <div class="row">
-                <div class="bd-example">
-                    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="img/bg-img/bg-3.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <img src="img/core-img/Quote.png" class="carousel-img" alt="">
-                                    <p class="text-justify text-white font-italic">Voluptate sunt enim incididunt nisi
-                                        consectetur laboris cillum irure sunt excepteur laboris ipsum culpa ea. Minim ut
-                                        consequat aute excepteur aliquip enim eiusmod amet duis aute officia. Sit
-                                        reprehenderit
-                                        eiusmod anim officia. Aliquip esse Lorem qui veniam.</p>
-                                    <h5 class="text-danger text-uppercase carousel-uper">Samiul Hasan ----</h5>
-                                    <p class="carousel-uper text-info">United State</p>
+                <div class="col-12">
+                    <div class="bd-example">
+                        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/bg-img/bg-3.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <img src="img/core-img/Quote.png" class="carousel-img" alt="">
+                                        <p class="text-justify text-white font-italic">Voluptate sunt enim incididunt
+                                            nisi
+                                            consectetur laboris cillum irure sunt excepteur laboris ipsum culpa ea.
+                                            Minim ut
+                                            consequat aute excepteur aliquip enim eiusmod amet duis aute officia. Sit
+                                            reprehenderit
+                                            eiusmod anim officia. Aliquip esse Lorem qui veniam.</p>
+                                        <h5 class="text-danger text-uppercase carousel-uper">Samiul Hasan ----</h5>
+                                        <p class="carousel-uper text-info">United State</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/bg-img/bg-3.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <img src="img/core-img/Quote.png" class="carousel-img" alt="">
+                                        <p class="text-justify text-white font-italic">Id proident labore nisi tempor
+                                            culpa sit
+                                            eu
+                                            deserunt ut nostrud quis. Magna minim sunt nostrud labore ex qui. Sint
+                                            adipisicing
+                                            in
+                                            reprehenderit sit qui anim proident nostrud sint incididunt.</p>
+                                        <h5 class="text-danger text-uppercase carousel-uper">Rakib Mondal ----</h5>
+                                        <p class="carousel-uper text-info">California</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/bg-img/bg-3.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-sm-block">
+                                        <img src="img/core-img/Quote.png" class="carousel-img" alt="">
+                                        <p class="text-justify text-white font-italic">Excepteur ipsum incididunt
+                                            reprehenderit
+                                            minim fugiat irure mollit ut pariatur laborum. Consequat duis pariatur duis
+                                            dolore
+                                            et
+                                            in ullamco ex minim ea. Irure reprehenderit nisi in exercitation sit
+                                            proident minim
+                                            eu
+                                            elit incididunt mollit.</p>
+                                        <h5 class="text-danger text-uppercase carousel-uper">Washim Reja Khan ----</h5>
+                                        <p class="carousel-uper text-info">India, Mumbai</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src="img/bg-img/bg-3.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <img src="img/core-img/Quote.png" class="carousel-img" alt="">
-                                    <p class="text-justify text-white font-italic">Id proident labore nisi tempor culpa sit
-                                        eu
-                                        deserunt ut nostrud quis. Magna minim sunt nostrud labore ex qui. Sint adipisicing
-                                        in
-                                        reprehenderit sit qui anim proident nostrud sint incididunt.</p>
-                                    <h5 class="text-danger text-uppercase carousel-uper">Rakib Mondal ----</h5>
-                                    <p class="carousel-uper text-info">California</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/bg-img/bg-3.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-sm-block">
-                                    <img src="img/core-img/Quote.png" class="carousel-img" alt="">
-                                    <p class="text-justify text-white font-italic">Excepteur ipsum incididunt reprehenderit
-                                        minim fugiat irure mollit ut pariatur laborum. Consequat duis pariatur duis dolore
-                                        et
-                                        in ullamco ex minim ea. Irure reprehenderit nisi in exercitation sit proident minim
-                                        eu
-                                        elit incididunt mollit.</p>
-                                    <h5 class="text-danger text-uppercase carousel-uper">Washim Reja Khan ----</h5>
-                                    <p class="carousel-uper text-info">India, Mumbai</p>
-                                </div>
-                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        </section>
     <!-- Client Feedback End -->
 
     <!-- Meet Our Artist Start-->
