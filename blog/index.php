@@ -44,4 +44,22 @@
     
     
     ?>
+    <!-- Big Icon Start -->
+    <section>
+        <div class="container">
+            <div class="row mb-4">
+                <div class="social-icons-box">
+                    <h1 class="">Our Social Icons</h1>
+                    <div class="social-icons-list">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>                         
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Big Icon End -->
 <?php include('blog-footer.php'); ?>

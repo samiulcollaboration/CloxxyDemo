@@ -105,37 +105,37 @@
                         <div class="col-lg-4 col-sm-6 col-xs-6 py-sm-1 py-3 mb-sm-3">
                             <div class="OurServicesDiv rounded shadow-lg pt-5">
                                 <img src="img/bg-img/Graphic-Design.png" class="img-fluid" alt="">
-                                <p class="pt-4">Graphic Design</p>
+                                <p class="py-4">Graphic Design</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6 col-xs-6 py-sm-1 py-3 mb-sm-3">
                             <div class="OurServicesDiv rounded shadow-lg pt-5">
                             <img src="img/bg-img/Web-Design.png" class="img-fluid" alt="">
-                                <p class="pt-4">Web Design</p>
+                                <p class="py-4">Web Design</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6 col-xs-6 py-sm-1 py-3 mb-sm-3">
                             <div class="OurServicesDiv rounded shadow-lg pt-5">
                             <img src="img/bg-img/Web-Development.png" class="img-fluid" alt="">
-                                <p class="pt-4">Web Development</p>
+                                <p class="py-4">Web Development</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6 col-xs-6 py-sm-1 py-3 mb-sm-3">
                             <div class="OurServicesDiv rounded shadow-lg pt-5">
                             <img src="img/bg-img/Mobile.png" class="img-fluid" alt="">
-                                <p class="pt-4">Android / iOS Development</p>
+                                <p class="py-4">Android / iOS Development</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6 col-xs-6 py-sm-1 py-3 mb-sm-3">
                             <div class="OurServicesDiv rounded shadow-lg pt-5">
                             <img src="img/bg-img/WordPress.png" class="img-fluid" alt="">
-                                <p class="pt-4">Wordpress Theme Customization</p>
+                                <p class="py-4">Wordpress Customization</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6 col-xs-6 py-sm-1 py-3 mb-sm-3">
                             <div class="OurServicesDiv rounded shadow-lg pt-5">
                             <img src="img/bg-img/SEO-Service.png" class="img-fluid" alt="">
-                                <p class="pt-4">SEO Service</p>
+                                <p class="py-4">SEO Service</p>
                             </div>
                         </div>
                     </div>
@@ -160,19 +160,19 @@
                     <div class="col-lg-3 col-sm-6 col-6 pt-md-4">
                         <div class="choiceus">
                             <i class="fa fa-users" aria-hidden="true"></i>
-                            <p class="pt-3">Exprenced Team</p>
+                            <p class="pt-3">Experienced Team</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-6 pt-md-4">
                         <div class="choiceus">
                             <i class="fa fa-money" aria-hidden="true"></i>
-                            <p class="pt-3">Valueable Price</p>
+                            <p class="pt-3">Valuable Price</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-6 pt-md-4">
                         <div class="choiceus">
                             <i class="fa fa-truck" aria-hidden="true"></i>
-                            <p class="pt-3">Onetime Delivery</p>
+                            <p class="pt-3">One Time Delivery</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-6 pt-md-4">
@@ -200,9 +200,6 @@
                             <li><a href="https://www.facebook.com/cloxxy.in" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                            <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
                         </ul>
                     </div>
                 </div>

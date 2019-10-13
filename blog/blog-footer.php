@@ -4,8 +4,7 @@
             <div class="row">
                 <div class="col-md-3 mx-auto">
                     <h5 class="footer font-weight-bold text-uppercase mt-3 mb-4">Cloxxy</h5>
-                    <p class="footer text-sm-justify text-lg-left">Eiusmod ad sint ad ut esse Lorem sit incididunt
-                        cillum sint exercitation consectetur.</p>
+                    <p class="footer text-sm-justify text-lg-left">We build intelligent and beautiful websites. We develop websites that ignite your business. <q>If you can think it, we can web it.</q></p>
                 </div>
                 <hr class="clearfix w-100 d-md-none">
                 <div class="col-md-2 mx-auto">

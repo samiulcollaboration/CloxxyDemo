@@ -648,16 +648,12 @@ input:required {
 /* ------------------------ 
     client Messege Area
 ------------------------ */
-.client-head-text{
-  text-align: center;
+.carousel-bg-img{
+  background-image: url(img/bg-img/bg-3.jpg);
+  padding: 80px;
 }
 .carousel-uper{
   text-align: end;
-}
-.carousel-img{
-  height: 55px;
-  width: 51px;
-  margin-bottom: 20px;
 }
 .team-body{
   font-family: Merienda;
@@ -895,7 +891,6 @@ input:required {
 }
 
 .TeamMemberOutter {
-   padding: 5px !important;
 }
 
 .TeamMember {
@@ -979,7 +974,8 @@ input:required {
 }
 /* //////POST////// */
 .postContainer{
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .eachPost{
   height: 500px;
@@ -1045,6 +1041,9 @@ input:required {
   margin-bottom: 30px;
   font-size: 22px;
   padding: 20px;
+}
+#mytextarea{
+  min-height: 500px;
 }
 .blog-btn{
   background: #23272B;

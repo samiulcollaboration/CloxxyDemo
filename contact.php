@@ -51,12 +51,11 @@
                                 <h3 class="text-danger font-weight-bolder mb-4">Cloxxy</h3>
                                 <h5>Informaction General</h5>
                                 <i class="fas fa-envelope-open-text"></i> <a href="mailto:contact@cloxxy.in">contact@cloxxy.in</a>
-                                <h5 class="mt-3">Telephone Contact</h5>
-                                <i class="fas fa-mobile-alt"></i> <a href="tel:+917001250500">7001250500</a>
                                 <h5 class="mt-3">Direction Postal</h5>
                                 <address>
-                                    Islampur Murshidabad <br>
-                                    West Bengal, India <br>
+                                    Murshidabad <br>
+                                    West Bengal <br>
+                                    India <br>
                                     Pin / Zip - 742304 <br>
                                 </address>
                             </div>
@@ -83,8 +82,8 @@
                                 <div class="form-message">
                                     <textarea name="message" placeholder="Message" required></textarea>
                                 </div>
-                                <div class="form-button">
-                                    <button type="submit">Submit</button>
+                                <div class="form-button text-center mt-5">
+                                    <button class="btn btn-info" type="submit">Submit</button>
                                 </div>
                                 
                             </form>
@@ -110,10 +109,7 @@
                         <ul>
                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                            <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>                         
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>                         
                         </ul>
                     </div>
                 </div>
