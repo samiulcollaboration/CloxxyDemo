@@ -20,7 +20,7 @@
                             <a href="portfolio.php" class="footer">Portfolio</a>
                         </li>
                         <li>
-                            <a href="blog" class="footer">Blog</a>
+                            <a href="blog/" class="footer">Blog</a>
                         </li>
                         <li>
                             <a href="contact.php" class="footer">Contact Us</a>
@@ -35,9 +35,7 @@
                             Islampur Murshidabad <br>
                             West Bengal <br>
                             742304 <br>
-                            India <br>
-                            <i class="fas fa-phone-square"></i><a href="tel:+917001250500" class="footer"> 7001250500</a>
-                            <br>
+                            India<br>
                             <i class="fas fa-envelope-open-text"></i><a href="mailto:samiulhasan1994@gmail.com" class="footer">
                                 contact@cloxxy.in</a>
                         </address>
