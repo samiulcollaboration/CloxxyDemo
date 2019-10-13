@@ -25,13 +25,23 @@
             $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
             // Check if image file is a actual image or fake image           
             $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
+            try {
+                if($check !== false) {
+                    $imagePath = $target_dir . $_FILES['fileToUpload']["name"];
+                    move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $imagePath);
+                }
+                else{
+                    throw new Exception("Wrong Image");
+                }
+              }
 
-            if($check !== false) {
-                $imagePath = $target_dir . $_FILES['fileToUpload']["name"];
-                move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $imagePath);
-            } else {
-                echo "File is not an image.";
-            }
+              catch(Exception $e) {
+                echo "<img src='../img/bg-img/wrong.jpg' style='height:100vh;'>";
+                die();
+                    
+              }
+
+            
 
 
             $title = $_POST['title'];
@@ -43,7 +53,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <img src="img/bg-img/successfully.jpg" alt="data inserted successfully" class="img-fluid">
+                            <img src="..img/bg-img/successfully.jpg" alt="data inserted successfully" class="img-fluid">
                         </div>
                     </div>
                 </div>

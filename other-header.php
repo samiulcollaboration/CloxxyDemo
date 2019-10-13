@@ -97,8 +97,7 @@
                                     <li class="breadcrumb-item"><a href="index.html" class="text-white"><i class="icon_house_alt"></i> Portfolio</a></li>
                                <?php }
                                  ?>
-                                
-                                <li class="breadcrumb-item active" aria-current="page"><?php echo $current_page; ?></li>
+                                <li class="breadcrumb-item active" aria-current="page"><?php print_r($current_page); ?></li>
                             </ol>
                         </nav>
                     </div>

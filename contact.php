@@ -8,7 +8,7 @@
 
     $msg = "";
     if(isset($_POST['message']))
-        $msg = $_POST['message'];
+        $msg = $_POST['name'] . "\n" . $_POST['message'];
 
     $header = "";
     if(isset($_POST['email']))
@@ -18,7 +18,14 @@
         if(mail($to, $subject, $msg, $header)){
             //message send successful // TODO
             ?>
-            <h1>Successfull</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 Success text-center">
+                        <h2>Message Sent</h2>
+                        <a href=""><button class="btn btn-info">Back</button></a>
+                    </div>
+                </div>
+            </div>
         <?php   
         }
         else{ 
