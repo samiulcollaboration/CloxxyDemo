@@ -13,7 +13,7 @@
                                 <h2 data-animation="bounceInDown" data-delay="900ms">Hello <br>I'm Samiul</h2>
                                 <p data-animation="bounceInDown" data-delay="500ms">Design can be art. Design can be simple. That’s why it’s so complicated.</p>
                                 <div class="hero-btn-group" data-animation="bounceInDown" data-delay="100ms">
-                                    <a href="https://www.facebook.com/thisisantu" target="_blank" class="btn alime-btn mb-3 mb-sm-0 mr-4">Hire Me</a>
+                                    <a href="https://www.facebook.com/cloxxy.in" target="_blank" class="btn alime-btn mb-3 mb-sm-0 mr-4">Hire Me</a>
                                 </div>
                             </div>
                         </div>
@@ -31,7 +31,7 @@
                                 <h2 data-animation="bounceInDown" data-delay="900ms">Hello <br>I'm Rakib</h2>
                                 <p data-animation="bounceInDown" data-delay="500ms">There is no such thing as a boring project. There are only boring executions.</p>
                                 <div class="hero-btn-group" data-animation="bounceInDown" data-delay="100ms">
-                                    <a href="contact.php" target="_blank" class="btn alime-btn mb-3 mb-sm-0 mr-4">Hire Me</a>
+                                    <a href="https://www.facebook.com/cloxxy.in" target="_blank" class="btn alime-btn mb-3 mb-sm-0 mr-4">Hire Me</a>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +49,7 @@
                                 <h2 data-animation="bounceInUp" data-delay="100ms">Hello <br>I'm Washim</h2>
                                 <p data-animation="bounceInUp" data-delay="500ms">Only those who attempt the absurd will achieve the impossible.</p>
                                 <div class="hero-btn-group" data-animation="bounceInUp" data-delay="900ms">
-                                    <a href="contact.php" target="_blank" class="btn alime-btn mb-3 mb-sm-0 mr-4">Hire Me</a>
+                                    <a href="https://www.facebook.com/cloxxy.in" target="_blank" class="btn alime-btn mb-3 mb-sm-0 mr-4">Hire Me</a>
                                 </div>
                             </div>
                         </div>
@@ -64,17 +64,13 @@
     <section class="intro-section">
         <div class="container border border-secondary mt-4">
             <div class="row shadow">
-                <div class="col-lg-5 intro-text mt-5">
+                <div class="col-lg-5 intro-text mt-4">
                     <h5 class="sp-sub-title text-success">Amazing Work</h5>
                     <h3 class="sp-title text-body">We are so Creative</h3>
-                    <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, ipsum
-                        quos fuga sapiente fugiat
-                        distinctio iure eum in harum tenetur dicta, dignissimos eligendi illum iste voluptatem sint,
-                        beatae
-                        assumenda odit.</p>
+                    <p class="text-justify">I'm proud of our hard work. Working hard won't always lead to the exact things we desire. Knowledge comes, but wisdom lingers. It may not be difficult to store up in the mind a vast quantity of facts within a comparatively short time, but the ability to form judgments requires the severe discipline of hard work and the tempering heat of experience and maturity.</p>
                 </div>
                 <div class="col-lg-7">
-                    <img src="img/bg-img/intro.jpg" class="img-fluid border " alt="">
+                    <img src="img/bg-img/intro.jpg" class="img-fluid border m-2" alt="">
                 </div>
             </div>
         </div>
@@ -198,8 +194,8 @@
                     <div class="social-icons-list">
                         <ul>
                             <li><a href="https://www.facebook.com/cloxxy.in" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://twitter.com/Cloxxy2" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/samiulhasan_94" target="_blank"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>

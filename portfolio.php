@@ -25,10 +25,10 @@
                                 <div class="card-body">
                                     <a href="portfolio-details.php"><h5 class="card-title">Cloxxy Application Portfolio</h5></a>
                                     <ul class="list">
-                                            <li><span>Rating</span>: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                                    class="fa fa-star"></i><i class="fa fa-star"></i></li>
+                                            <li><span>Rating</span>: <i class="fa fa-star text-success"></i><i class="fa fa-star text-success"></i><i class="fa fa-star text-success"></i><i
+                                                    class="fa fa-star text-success"></i><i class="fa fa-star text-success"></i></li>
                                         </ul>
-                                    <p class="card-text">This is a application portfolio website. This is a application portfolio website. This is a application portfolio website.</p>
+                                    <p class="card-text text-dark">This is the mobile application's portfolio website.</p>
                                 </div>
                             </div>
                         </div>
@@ -47,9 +47,9 @@
                     <h1 class="">Our Social Icons</h1>
                     <div class="social-icons-list">
                         <ul>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>                         
+                            <li><a href="https://www.facebook.com/cloxxy.in"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://twitter.com/Cloxxy2"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/samiulhasan_94"><i class="fab fa-instagram"></i></a></li>                         
                         </ul>
                     </div>
                 </div>

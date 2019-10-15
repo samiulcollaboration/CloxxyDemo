@@ -48,7 +48,7 @@
                     <div class="card contact-form-main">
                         <div class="card-body">
                             <div class="contact-form">
-                                <h3 class="text-danger font-weight-bolder mb-4">Cloxxy</h3>
+                                <h3 class="text-danger text-uppercase font-weight-bolder mb-4">Cloxxy</h3>
                                 <h5>Informaction General</h5>
                                 <i class="fas fa-envelope-open-text"></i> <a href="mailto:contact@cloxxy.in">contact@cloxxy.in</a>
                                 <h5 class="mt-3">Direction Postal</h5>
@@ -65,7 +65,7 @@
                 <div class="col-md-8 border mb-4">
                     <div class="contact">
                         <div class="contact-title">
-                            <h1 class="text-danger font-weight-bolder mb-4">Contact Us</h1>
+                            <h1 class="text-danger text-uppercase font-weight-bolder mb-4">Contact Us</h1>
                         </div>
                         <!-- form -->
                         <div class="form-container">
@@ -107,9 +107,9 @@
                     <h1 class="">Our Social Icons</h1>
                     <div class="social-icons-list">
                         <ul>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>                         
+                            <li><a href="https://www.facebook.com/cloxxy.in"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://twitter.com/Cloxxy2"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/samiulhasan_94"><i class="fab fa-instagram"></i></a></li>                         
                         </ul>
                     </div>
                 </div>

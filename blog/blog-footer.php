@@ -55,15 +55,12 @@
         <hr>
         <ul class="list-unstyled list-inline text-center py-2">
             <li class="list-inline-item">
-                <h5 class="footer mb-1">Hire Me</h5>
-            </li>
-            <li class="list-inline-item">
-                <a href="#!" class="btn btn-danger btn-rounded">Click Here</a>
+                <a href="https://www.facebook.com/cloxxy.in" target="_blank" class="btn btn-danger btn-rounded">Hire Me~</a>
             </li>
         </ul>
 
         <div class="footer-copyright text-center py-3">© copyright all rights reserved:
-            <a href="#" class="footer"> cloxxy.in</a>
+            <a href="../index.php" class="footer"> cloxxy.in</a>
         </div>
     </footer>
     <!-- Footer End -->
