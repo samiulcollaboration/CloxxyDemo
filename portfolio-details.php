@@ -46,7 +46,7 @@
                             <li><span>Website</span>: cloxxy.in</li>
                             <li><span>Completed</span>: 17 Jun 2019</li>
                         </ul>
-                        <a href="#"><button class="btn btn-secondary mt-3">Check The Website</button></a>
+                        <a href="https://demo1.cloxxy.in"><button class="btn btn-secondary mt-3">Check The Website</button></a>
                     </div>
                 </div>
             </div>

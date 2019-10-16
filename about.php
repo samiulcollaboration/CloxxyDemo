@@ -157,10 +157,10 @@
                                     completed
                                     over 1000+ project on his own.</span>
                                 <p class="socials">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/raj.rajkhan.5"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://twitter.com/KhaanReja"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.linkedin.com/in/washim-reja-khan-1aa35b195"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://www.instagram.com/rajkhan2014"><i class="fab fa-instagram"></i></a>
                                 </p>
                             </div>
                         </div>

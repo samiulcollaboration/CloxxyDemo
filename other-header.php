@@ -24,7 +24,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="">
+    <meta name="description" content="World Large Web Development Site. If you can think it, we can web it.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -32,7 +32,7 @@
     <title><?php echo $current_page; ?></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!-- Favicon -->
-    <link rel="icon" href="./img/core-img/favicon.png">
+    <link rel="icon" href="./img/core-img/favicon.png" alt="Cloxxy Favicon">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/6b31c6085b.js" crossorigin="anonymous"></script>
     <!-- Stylesheet -->
@@ -51,7 +51,7 @@
                     <!-- Classy Menu -->
                     <nav class="classy-navbar justify-content-between" id="alimeNav">
                         <!-- Logo -->
-                        <a class="nav-brand" href="index.html"><img src="./img/core-img/logo3.png" alt=""></a>
+                        <a class="nav-brand" href="index.php"><img src="./img/core-img/logo.png" alt="Cloxxy Logo"></a>
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
                             <span class="navbarToggler"><span></span><span></span><span></span></span>

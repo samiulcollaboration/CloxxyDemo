@@ -45,7 +45,7 @@
                     <nav class="classy-navbar justify-content-between" id="alimeNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo3.png" alt=""></a>
+                        <a class="nav-brand" href="./index.php"><img src="./img/core-img/logo.png" alt="Cloxxy Logo"></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
